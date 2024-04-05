@@ -1,0 +1,161 @@
+body{
+  background: linear-gradient(
+  to right,
+  white 10%,
+  grey 65%,
+  black 110%
+);
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  header{
+    width: 100px ;
+    height:50px ;
+  }
+  
+  .section1 {
+    width: 60%;  
+    margin: 30px;
+  }
+
+  .section2{
+    width: 30% ;
+    margin: 20px;
+  }
+
+  textarea {
+    background-color: transparent; 
+    width: 49rem;
+    height: 28rem;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left:50px;
+    border-radius: 25px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  ::placeholder {
+    color: black;
+  }
+
+  .alerta{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    position: relative;
+    left:200px ;
+  }
+
+  .informacion1{
+    position: relative;
+    top: 18px;
+    width: 16px ;
+    height: 16px ;
+  }
+
+  .informacion1{
+    width: 16px ;
+    height: 16px ;
+  }
+
+  .botones{
+    width: 700px ;
+    height:100px ;
+    position: relative;
+    left:200px ;
+  }
+
+  .btn-encriptar{
+    width: 240px ;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    height: 60px ;
+    font-size: 21px ;
+    padding:5px ;
+    border-radius: 25px ;
+    margin: 5px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .btn-desencriptar{
+    width: 240px ;
+    height: 60px ;
+    font-size: 21px ;
+    padding:5px ;
+    border-radius: 25px ;
+    margin: 5px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container2{
+    width: 380px;
+    height: 671px;
+    text-align: center;
+    border-radius: 43px;
+    position: relative;
+    left:50px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+  .img-muñeco{
+    padding: 10px;
+    margin:29px ; 
+    width:300px ;
+  }
+
+  .texto-resultado {
+    max-width: 300px;
+    font-size: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    left: 48px;
+    top: 0rem;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .btn-copiar{
+    width: 310px ;
+    height: 60px ;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    top: 60px;
+    font-size: 21px ;
+    padding:10px ;
+    border-radius: 25px 25px 43px 43px ;
+    margin: 10px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  
